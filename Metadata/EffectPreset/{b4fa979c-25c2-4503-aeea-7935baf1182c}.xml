@@ -12,14 +12,11 @@
 		</relationship>
 	</object>
 	<object class="ThreeEQEffect" id="{e5f6e2f8-32aa-482f-b8fe-5c4250addc9b}">
-		<property name="midGain">
-			<value>-80</value>
-		</property>
 		<property name="highGain">
-			<value>-15.5</value>
+			<value>-14</value>
 		</property>
 		<property name="lowCrossover">
-			<value>660</value>
+			<value>600</value>
 		</property>
 		<property name="highCrossover">
 			<value>22000</value>
@@ -28,40 +25,40 @@
 			<value>0</value>
 		</property>
 		<relationship name="automators">
-			<destination>{d24b804f-a32d-492a-9c9b-7abec96c11b0}</destination>
+			<destination>{0745b6a7-14cc-4a54-876b-bd6a19eed5a0}</destination>
 		</relationship>
 	</object>
-	<object class="Automator" id="{d24b804f-a32d-492a-9c9b-7abec96c11b0}">
+	<object class="Automator" id="{0745b6a7-14cc-4a54-876b-bd6a19eed5a0}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>lowCrossover</value>
 		</property>
 		<relationship name="automationCurves">
-			<destination>{428b89f7-4550-45c8-af12-44e6ebdce63c}</destination>
+			<destination>{faafc2e7-a8df-49e7-b8ff-cf0360f06062}</destination>
 		</relationship>
 	</object>
-	<object class="AutomationCurve" id="{428b89f7-4550-45c8-af12-44e6ebdce63c}">
+	<object class="AutomationCurve" id="{faafc2e7-a8df-49e7-b8ff-cf0360f06062}">
 		<relationship name="parameter">
 			<destination>{6fe25f55-ba7c-43c5-a4ee-d9f94ce6f9b9}</destination>
 		</relationship>
 		<relationship name="automationPoints">
-			<destination>{da6433eb-044a-4f29-be1d-994577d07d4b}</destination>
-			<destination>{849367fe-5b9e-47dc-9b49-fef92051a71d}</destination>
+			<destination>{453dbb90-e61b-4845-9c9b-2eeb3e0a7cbe}</destination>
+			<destination>{47624169-d803-40d0-9625-2c2cac93acc4}</destination>
 		</relationship>
 	</object>
-	<object class="AutomationPoint" id="{da6433eb-044a-4f29-be1d-994577d07d4b}">
+	<object class="AutomationPoint" id="{453dbb90-e61b-4845-9c9b-2eeb3e0a7cbe}">
 		<property name="position">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<property name="value">
 			<value>22000</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{849367fe-5b9e-47dc-9b49-fef92051a71d}">
+	<object class="AutomationPoint" id="{47624169-d803-40d0-9625-2c2cac93acc4}">
 		<property name="position">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<property name="value">
-			<value>600</value>
+			<value>650</value>
 		</property>
 	</object>
 </objects>
